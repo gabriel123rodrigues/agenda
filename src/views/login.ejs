@@ -16,7 +16,7 @@
                     <p>se ainda não tem cadastro, preencha o formulário abaixo</p>
                     <%- include('includes/messages') %>
                     <form action="/login/register" method="POST">
-                        <iput type="hidden" name="_csrf" value=<%csrfToken%>></iput>
+                        <input type="hidden" name="_csrf" value=<%csrfToken%>></iput>
                         <div class="form-group">
                           <label >Endereço de email</label>
                           <input type="email" class="form-control mb-2" name="email" placeholder="Seu email">
